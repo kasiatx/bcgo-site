@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — BC Guide Outfitters</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Source+Sans+3:wght@400;600;700&family=Zilla+Slab:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=23">
+<script src="assets/site.js?v=23" defer></script>
+</head>
+<body data-page="contact">
+<div id="site-header"></div>
+
+<main>
+  <section class="hero hero-sub" style="min-height:42vh">
+    <div class="hero-bg" style="background-image:url('https://www.bcguideoutfitters.com/wp-content/uploads/2024/07/2024-scene5.jpg');background-position:center 55%"></div>
+    <div class="wrap">
+      <div>
+        <div class="crumbs"><a href="index.html">Home</a> / Contact</div>
+        <h1>Contact Mark</h1>
+        <p class="lead">Questions about a hunt, dates or anything else? Send Mark a note below, or text or call. Ready to book moose, elk, black bear, lynx or wolf? <a data-book href="book.html">Request your dates online</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section topo">
+    <div class="wrap contact-grid">
+      <div class="form form-embed">
+        <h2 style="font-size:1.9rem">Send Mark a note</h2>
+        <p class="lead" style="font-size:1rem">Questions, or a mule deer, cougar, mountain goat or Shiras moose hunt? Tell us what you're after and when. Your inquiry goes straight to Mark.</p>
+        <!-- Hunt Outfitter lead-capture widget: the same snippet bmohunts.com uses.
+             Renders bcgo.huntoutfitter.app/embed/capture in an auto-resizing iframe and
+             includes the SMS consent checkboxes. data-source tags each lead "Website" in HO. -->
+        <div id="huntoutfitter-widget" data-slug="bcgo" data-source="Website preview"></div>
+        <div class="file-only panel" hidden>
+          <h3>The live form appears here</h3>
+          <p>Browsers block the embedded form when this page is opened straight from a file. To see it in place, close this tab and double-click <strong>View mockup.command</strong> in the mock-up folder. Or <a href="https://bcgo.huntoutfitter.app/" target="_blank" rel="noopener">open the form in a new tab</a>.</p>
+        </div>
+        <script>
+          // file:// pages can't frame the widget (HO's frame-ancestors * matches only http/https),
+          // so skip it rather than show a broken "refused to connect" box. Not needed on the real site.
+          if (location.protocol === "file:") {
+            document.getElementById("huntoutfitter-widget").remove();
+            document.querySelector(".file-only").hidden = false;
+          }
+        </script>
+        <script src="https://www.huntoutfitter.app/embed.js"></script>
+      </div>
+      <aside>
+        <div class="contact-card">
+          <h3>Text or call</h3>
+          <p style="color:rgba(242,237,227,.75)">Texts get instant auto-replies to common questions, and anything else goes to Mark. Calls ring through to Mark.</p>
+          <div class="ci"><svg viewBox="0 0 24 24"><path d="M5 3h4l2 5-3 2a12 12 0 006 6l2-3 5 2v4a2 2 0 01-2 2A17 17 0 013 5a2 2 0 012-2z"/></svg><div><small>Text or call</small><a href="sms:+18665895183?&body=Hi%2C%20I%20have%20a%20question%20about%20a%20hunt.">866-589-5183</a></div></div>
+          <div class="ci"><svg viewBox="0 0 24 24"><path d="M3 5h18v14H3zM3 6l9 7 9-7"/></svg><div><small>Email</small><a href="mailto:markbcgo@gmail.com">markbcgo@gmail.com</a></div></div>
+          <div class="ci"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6-7-12a7 7 0 0114 0c0 6-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg><div><small>Mailing address</small>PO Box 3159, Kamloops, BC V2C 6B8<br></div></div>
+        </div>
+        <div class="panel" style="margin-top:20px">
+          <h3>Already booked?</h3>
+          <p>Sign in to the client portal for your documents, payments and trip details.</p>
+          <a class="btn btn-outline" href="https://bcgo.huntoutfitter.app/login" target="_blank" rel="noopener">Client portal ↗</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+</body>
+</html>

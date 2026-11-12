@@ -1,0 +1,3 @@
+# Preview of the BC Guide Outfitters redesign. Not the live site.
+User-agent: *
+Disallow: /
