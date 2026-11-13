@@ -2,6 +2,17 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "bcguideoutfitters.com"
+        }
+      ],
+      "destination": "https://www.bcguideoutfitters.com/:path*",
+      "permanent": true
+    },
+    {
       "source": "/black-bear{/}?",
       "destination": "/hunts.html#black-bear",
       "permanent": true
