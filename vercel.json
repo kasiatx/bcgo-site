@@ -114,7 +114,7 @@
     },
     {
       "source": "/cancellation{/}?",
-      "destination": "/contact.html",
+      "destination": "/cancellation.html",
       "permanent": true
     },
     {

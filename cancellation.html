@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="canonical" href="https://www.bcguideoutfitters.com/cancellation.html">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cancellation List — BC Guide Outfitters</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Source+Sans+3:wght@400;600;700&family=Zilla+Slab:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=24">
+<script src="assets/site.js?v=25" defer></script>
+</head>
+<body data-page="cancellation">
+<div id="site-header"></div>
+
+<main>
+  <section class="hero hero-sub" style="min-height:42vh">
+    <div class="hero-bg" style="background-image:url('assets/wp/2024/07/2024-scene2.jpg');background-position:center 40%"></div>
+    <div class="wrap">
+      <div>
+        <div class="crumbs"><a href="index.html">Home</a> / Cancellation list</div>
+        <h1>Join the cancellation list</h1>
+        <p class="lead">Sometimes we have last-minute cancellations, and the window to fill those spots is short. Join the list and we'll email you when an opening comes up.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section topo">
+    <div class="wrap" style="max-width:720px">
+      <!-- Hunt Outfitter cancellation-list widget (data-widget="list"). Renders
+           bcgo.huntoutfitter.app/embed/list: email + name, an unchecked consent box
+           and a captcha. A signup joins BCGO's cancellation list in HO. One widget
+           per page (shared element id). -->
+      <div id="huntoutfitter-widget" data-slug="bcgo" data-widget="list" data-source="Website"></div>
+      <div class="file-only panel" hidden>
+        <h3>The live signup form appears here</h3>
+        <p>Browsers block the embedded form when this page is opened straight from a file. <a href="https://bcgo.huntoutfitter.app/embed/list" target="_blank" rel="noopener">Open the signup form in a new tab</a>.</p>
+      </div>
+      <script>
+        if (location.protocol === "file:") {
+          document.getElementById("huntoutfitter-widget").remove();
+          document.querySelector(".file-only").hidden = false;
+        }
+      </script>
+      <script src="https://www.huntoutfitter.app/embed.js"></script>
+      <p style="margin-top:24px">Ready to book now instead? <a data-book href="book.html">Request your dates online</a>, or <a href="contact.html">send Mark a note</a>.</p>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+</body>
+</html>

@@ -124,7 +124,7 @@ function footer() {
     <p class="wrap powered-by">We run our bookings, deposits, signed forms and hunter licenses through <a href="https://www.huntoutfitter.app/" target="_blank" rel="noopener">Hunt Outfitter</a>, booking software built for hunting outfitters.</p>
     <div class="wrap legal">
       <span>© 2026 BC Guide Outfitters. All rights reserved.</span>
-      <span><a href="privacy.html">Privacy</a> · <a href="https://guideschoolbc.com/">BC Guides Training</a></span>
+      <span><a href="cancellation.html">Cancellation list</a> · <a href="privacy.html">Privacy</a> · <a href="https://guideschoolbc.com/">BC Guides Training</a></span>
     </div>
   </footer>
   <div class="callbar"><a href="${SMS_URL}">💬 Text us</a><a href="${BOOK_URL}">Request to Book</a></div>
