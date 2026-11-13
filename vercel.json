@@ -122,7 +122,7 @@
       "permanent": true
     },
     {
-      "source": "/category/:path*",
+      "source": "/category/:slug{/}?",
       "destination": "/",
       "permanent": true
     },
