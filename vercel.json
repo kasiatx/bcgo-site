@@ -1,0 +1,150 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/black-bear{/}?",
+      "destination": "/hunts.html#black-bear",
+      "permanent": true
+    },
+    {
+      "source": "/bc-moose-hunts{/}?",
+      "destination": "/moose.html",
+      "permanent": true
+    },
+    {
+      "source": "/mountain-goat{/}?",
+      "destination": "/hunts.html#mountain-goat",
+      "permanent": true
+    },
+    {
+      "source": "/hunt-packages{/}?",
+      "destination": "/hunts.html",
+      "permanent": true
+    },
+    {
+      "source": "/guide-services{/}?",
+      "destination": "/hunts.html",
+      "permanent": true
+    },
+    {
+      "source": "/hunting-in-bc{/}?",
+      "destination": "/about.html",
+      "permanent": true
+    },
+    {
+      "source": "/hunting-rates{/}?",
+      "destination": "/rates.html",
+      "permanent": true
+    },
+    {
+      "source": "/video-gallery{/}?",
+      "destination": "/gallery.html#videos",
+      "permanent": true
+    },
+    {
+      "source": "/elk{/}?",
+      "destination": "/hunts.html#elk",
+      "permanent": true
+    },
+    {
+      "source": "/whitetail-deer{/}?",
+      "destination": "/hunts.html",
+      "permanent": true
+    },
+    {
+      "source": "/wolf{/}?",
+      "destination": "/hunts.html#wolf",
+      "permanent": true
+    },
+    {
+      "source": "/cougar-hunt{/}?",
+      "destination": "/hunts.html#cougar",
+      "permanent": true
+    },
+    {
+      "source": "/mule-deer{/}?",
+      "destination": "/hunts.html#mule-deer",
+      "permanent": true
+    },
+    {
+      "source": "/about-us{/}?",
+      "destination": "/about.html",
+      "permanent": true
+    },
+    {
+      "source": "/location{/}?",
+      "destination": "/about.html#territory",
+      "permanent": true
+    },
+    {
+      "source": "/hunting-guide-school{/}?",
+      "destination": "https://guideschoolbc.com/",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us{/}?",
+      "destination": "/contact.html",
+      "permanent": true
+    },
+    {
+      "source": "/media-gallery{/}?",
+      "destination": "/gallery.html",
+      "permanent": true
+    },
+    {
+      "source": "/hunt-reservation-form{/}?",
+      "destination": "/book.html",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy{/}?",
+      "destination": "/privacy.html",
+      "permanent": true
+    },
+    {
+      "source": "/cancellation{/}?",
+      "destination": "/contact.html",
+      "permanent": true
+    },
+    {
+      "source": "/canada-lynx{/}?",
+      "destination": "/hunts.html#lynx",
+      "permanent": true
+    },
+    {
+      "source": "/hello-world{/}?",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/guide-training-course{/}?",
+      "destination": "https://guideschoolbc.com/",
+      "permanent": true
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/:path*",
+      "destination": "/assets/wp/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/feed{/}?",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-admin/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-login.php",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}

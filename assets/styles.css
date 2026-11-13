@@ -190,7 +190,7 @@ section { position: relative; }
     linear-gradient(rgba(46, 36, 27, .78), rgba(46, 36, 27, .85)),
     repeating-linear-gradient(90deg, rgba(0, 0, 0, .18) 0 2px, transparent 2px 140px),
     repeating-linear-gradient(0deg, rgba(255, 255, 255, .02) 0 3px, rgba(0, 0, 0, .04) 3px 7px),
-    url("https://www.bcguideoutfitters.com/wp-content/uploads/2018/08/woodback-cta.jpg") center/cover,
+    url("wp/2018/08/woodback-cta.jpg") center/cover,
     var(--wood);
 }
 

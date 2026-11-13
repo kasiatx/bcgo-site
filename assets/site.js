@@ -1,6 +1,6 @@
 /* BC Guide Outfitters mock-up — shared chrome + interactions.
    Header/footer are injected here so the 7 mock pages stay in sync (a real build would use templates). */
-const IMG = "https://www.bcguideoutfitters.com/wp-content/uploads/";
+const IMG = "assets/wp/";
 // Public number = BCGO's Twilio toll-free line (TFN). Calls forward to Mark's phone;
 // texts get the HO SMS assistant. Mark's cell is deliberately NOT published anywhere.
 // Goes live with the new site, after toll-free verification + assistant setup.
@@ -104,7 +104,7 @@ function footer() {
         <ul>
           <li><a href="rates.html">Rates &amp; packages</a></li>
           <li><a href="rates.html#licences">Licences &amp; tags</a></li>
-          <li><a href="https://www.bcguideoutfitters.com/wp-content/uploads/2018/10/Thingstobringhunt.pdf">What to bring (PDF)</a></li>
+          <li><a href="assets/wp/2018/10/Thingstobringhunt.pdf">What to bring (PDF)</a></li>
           <li><a href="about.html#territory">The territory</a></li>
           <li><a href="faq.html">FAQ &amp; text line</a></li>
           <li><a href="${PORTAL_URL}" target="_blank" rel="noopener">Client portal ↗</a></li>
@@ -124,7 +124,7 @@ function footer() {
     <p class="wrap powered-by">We run our bookings, deposits, signed forms and hunter licenses through <a href="https://www.huntoutfitter.app/" target="_blank" rel="noopener">Hunt Outfitter</a>, booking software built for hunting outfitters.</p>
     <div class="wrap legal">
       <span>© 2026 BC Guide Outfitters. All rights reserved.</span>
-      <span><a href="#">Privacy</a> · <a href="https://guideschoolbc.com/">BC Guides Training</a></span>
+      <span><a href="privacy.html">Privacy</a> · <a href="https://guideschoolbc.com/">BC Guides Training</a></span>
     </div>
   </footer>
   <div class="callbar"><a href="${SMS_URL}">💬 Text us</a><a href="${BOOK_URL}">Request to Book</a></div>
